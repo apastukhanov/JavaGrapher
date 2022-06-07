@@ -20,7 +20,7 @@ public class CubicCurve extends JFrame {
 
 
     public CubicCurve() {
-        this.setTitle("График третьего порядка");
+        this.setTitle("Java Grapher");
         this.setContentPane(mainPanel);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
@@ -59,7 +59,7 @@ public class CubicCurve extends JFrame {
     }
     private JFreeChart getLineChart(XYSeriesCollection ds) {
         JFreeChart lineChart = ChartFactory.createXYLineChart(
-                "График кривой 3 порядка",
+                "Line Chart",
                 "X",
                 "Y",
                 ds, PlotOrientation.VERTICAL, true, true, false);

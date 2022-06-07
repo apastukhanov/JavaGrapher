@@ -21,7 +21,7 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Очистить график"/>
+              <text value="Clear Plot"/>
             </properties>
           </component>
           <component id="6e0cd" class="javax.swing.JButton" binding="drawPlot">
@@ -31,7 +31,7 @@
             <properties>
               <enabled value="true"/>
               <horizontalAlignment value="0"/>
-              <text value="Нарисовать график"/>
+              <text value="Draw Plot"/>
             </properties>
           </component>
         </children>
@@ -69,7 +69,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="Установите k:"/>
+              <text value="Write formula y=:"/>
             </properties>
           </component>
           <component id="aa5c" class="javax.swing.JLabel">
