@@ -69,7 +69,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="Write formula y=:"/>
+              <text value="Write formula y="/>
             </properties>
           </component>
           <component id="aa5c" class="javax.swing.JLabel">
