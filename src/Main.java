@@ -11,7 +11,7 @@ public class Main {
                 frameMain.setVisible(true);
                 frameMain.setExtendedState(Frame.MAXIMIZED_BOTH);
             } catch (Exception ex ){
-                System.out.println(ex);
+                System.out.println(ex.getStackTrace());
             }
         });
     }

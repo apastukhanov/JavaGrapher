@@ -52,7 +52,8 @@ public class CubicCurve extends JFrame {
                     chartPanel.setChart(getLineChart(dataset));
                 }
             } else {
-                JOptionPane.showMessageDialog(mainPanel, "Equation y="+formula+" have been drawn!");
+                JOptionPane.showMessageDialog(mainPanel, "Equation y=" + formula
+                        +" has been drawn already!");
             }
         });
 

@@ -43,9 +43,20 @@ public class PlotBuilder {
         }
     }
 
+    private String reformatEquation(String inputEquation) {
+        String equation;
+        equation = inputEquation.replace("Math.pow(x,", "x^")
+                .replace(")","")
+                .replace("Math.","");
+        if (equation.contains("(") && !equation.contains(")")){
+            equation = equation.replace("(","");
+        }
+        return equation;
+    }
+
     private XYSeries createDataset() {
         String title = "y="+this.inputFormula;
-        title = title.replace("Math.pow(x,", "x^").replace(")","");
+        title = this.reformatEquation(title);
         XYSeries series = new XYSeries(title);
         for (int x=-10; x <= 10; x++){
             series.add(x, getY(x));
